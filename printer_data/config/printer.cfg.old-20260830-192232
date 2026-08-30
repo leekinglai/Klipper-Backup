@@ -1,6 +1,3 @@
-# Happy Hare MMU includes (should be near top of file)
-[include mmu/base/*.cfg]
-[include mmu/macros/*.cfg]
                      # MMU 基礎設定
      # MMU 客戶端宏
 [include stealthburner_led_effects_3_leds.cfg] # SB 3 顆 LED 效果
@@ -11,9 +8,6 @@
 [include tunes.cfg]                          # 音效
 [include moonraker_obico_macros.cfg]         # Obico 宏
 [include mainsail.cfg]
-
-# Happy Hare Client macros (should be after last include or other PAUSE/CANCEL macros)
-[include mmu/optional/client_macros.cfg]
 
 [exclude_object]
 
